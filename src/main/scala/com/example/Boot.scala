@@ -4,6 +4,7 @@ import akka.actor.{ActorSystem, Props}
 import akka.io.IO
 import spray.can.Http
 
+
 object Boot extends App {
 
   val host = "0.0.0.0"
@@ -16,5 +17,5 @@ object Boot extends App {
   val service = system.actorOf(Props[MyServiceActor], "demo-service")
 
   // start a new HTTP server on port 8080 with our service actor as the handler
-  IO(Http) ! Http.Bind(service, interface = "localhost", port = port)
+  IO(Http) ! Http.Bind(service, interface = "0.0.0.0", port = port)
 }
