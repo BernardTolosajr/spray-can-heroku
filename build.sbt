@@ -1,3 +1,5 @@
+import com.typesafe.startscript.StartScriptPlugin
+
 organization  := "com.example"
 
 version       := "0.1"
@@ -5,6 +7,8 @@ version       := "0.1"
 scalaVersion  := "2.10.2"
 
 scalacOptions := Seq("-unchecked", "-deprecation", "-encoding", "utf8")
+
+seq(StartScriptPlugin.startScriptForClassesSettings: _*)
 
 resolvers ++= Seq(
   "spray repo" at "http://repo.spray.io/"
