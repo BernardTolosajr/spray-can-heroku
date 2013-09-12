@@ -48,11 +48,11 @@ Clone this repository, then run the application in one of the following ways.
                Procfile declares types -> web
         -----> Compiled slug size is 37.1MB
         -----> Launching... done, v5
-               http://quiet-samurai-5737.herokuapp.com deployed to Heroku
+               http://polar-shelf-8039.herokuapp.com deployed to Heroku
         
         To git@heroku.com:quiet-samurai-5737.git
          * [new branch]      master -> master
 
-    Now you can connect to the app URL `http://quiet-samurai-5737.herokuapp.com` *on port 80*. 
+    Now you can connect to the app URL `http://polar-shelf-8039.herokuapp.com` *on port 80*. 
     There is an internal port that varies across invocations of the app, but the app 
     is always exposed on port 80.
