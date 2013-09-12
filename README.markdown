@@ -1,6 +1,6 @@
 # Dependencies
 
-- Requires sbt 0.11.1 to build.
+- Requires sbt 0.12.x to build.
 
 # How to run
 
