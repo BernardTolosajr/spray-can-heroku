@@ -56,3 +56,6 @@ Clone this repository, then run the application in one of the following ways.
     Now you can connect to the app URL `http://polar-shelf-8039.herokuapp.com` *on port 80*. 
     There is an internal port that varies across invocations of the app, but the app 
     is always exposed on port 80.
+    
+ - Thanks to `https://github.com/ontoadaptive/spray-template-heroku`
+
