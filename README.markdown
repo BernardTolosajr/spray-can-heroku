@@ -57,5 +57,5 @@ Clone this repository, then run the application in one of the following ways.
     There is an internal port that varies across invocations of the app, but the app 
     is always exposed on port 80.
     
- - Thanks `https://github.com/ontoadaptive/spray-template-heroku`
+- Thanks `https://github.com/ontoadaptive/spray-template-heroku`
 
